@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "ZCST-OpenCS",
   description: "Mutual aid scheme",
+  base: '/ZCST-OpenCS-Source/',  // 添加 base 配置
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

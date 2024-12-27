@@ -10,7 +10,7 @@ hero:
       text: 查看文档
       link: /catalog
   image:
-    src: ./img/home.png
+    src: /home.png
     alt: "ZCST-OpenCS Logo"
 features:
   - title: 一份全面的课程攻略

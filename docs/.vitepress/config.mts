@@ -31,6 +31,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '人工智能理论与应用', link: '/collection/junior/courses/ai' },
+          { text: '软件工程', link: '/collection/junior/courses/software-engineering' },
         ]
       },
       {

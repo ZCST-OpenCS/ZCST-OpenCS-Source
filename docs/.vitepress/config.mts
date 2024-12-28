@@ -17,17 +17,17 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '大一',
+        text: '大一', link: '/collection/freshman/',
         collapsed: false,
         items: []
       },
       {
-        text: '大二',
+        text: '大二', link: '/collection/sophomore/',
         collapsed: false,
         items: []
       },
       {
-        text: '大三',
+        text: '大三', link: '/collection/junior/',
         collapsed: false,
         items: [
           { text: '人工智能理论与应用', link: '/collection/junior/courses/ai' },
@@ -35,7 +35,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '大四',
+        text: '大四', link: '/collection/senior/',
         collapsed: false,
         items: []
       }

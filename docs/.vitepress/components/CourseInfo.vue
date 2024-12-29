@@ -2,7 +2,7 @@
     <div class="course-stats">
         <!-- 顶部学分信息 -->
         <div class="stats-row">
-            <span class="tag exam-type">考试类</span>
+            <span class="tag exam-type">{{ examType }}</span>
             <div class="tag split-tag">
                 <span class="label">学分</span>
                 <span class="separator">|</span>
@@ -51,6 +51,10 @@ const props = defineProps({
             '小组汇报': '20%',
             '期末考试': '50%'
         })
+    },
+    examType: {
+        type: String,
+        default: '考试类'
     }
 })
 </script>

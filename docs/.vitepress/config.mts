@@ -12,7 +12,8 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
-      { text: '文档', link: '/catalog' }
+      { text: '文档', link: '/catalog' },
+      { text: '关于', link: '/about' }
     ],
 
     sidebar: [
@@ -33,6 +34,7 @@ export default defineConfig({
           { text: '人工智能理论与应用', link: '/collection/junior/courses/ai' },
           { text: '软件工程', link: '/collection/junior/courses/software-engineering' },
           { text: '机器学习', link: '/collection/junior/courses/machine-learning' },
+          { text: 'javaWeb 开发技术', link: '/collection/junior/courses/javaweb'},
         ]
       },
       {

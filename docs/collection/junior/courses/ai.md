@@ -26,3 +26,5 @@ import CourseInfo from '../../../.vitepress/components/CourseInfo.vue'
 ## 快马加鞭 and 期末速成
 
 第一节课带本书加平时成绩，想要浑水摸鱼的话看运气，老师基本节节课点名，到临近期末的时候点得比较少，想逃课的话看她点名抬不抬头。实验课报告基本不是很难，你能用 python 还是 vs 跑起来就行，能写出报告就好，老师给的期末复习 ppt 得看，这你都不看你过个屁！！！
+
+> 文 / Holocaust956, 2024.12

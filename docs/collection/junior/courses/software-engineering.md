@@ -28,3 +28,5 @@ import CourseInfo from '../../../.vitepress/components/CourseInfo.vue'
 ## 期末考试
 
 我的老师没有划重点,但是每个章节有个**练习题**都有发到雨课堂,有些算是原题出在试卷了吧。 emmmm, 知识点挺乱的感觉,我是纯看了雨课堂的练习题,随缘考。
+
+> 文 / CLZZ, 2024.12

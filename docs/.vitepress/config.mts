@@ -63,6 +63,10 @@ export default defineConfig({
             text: "嵌入式系统设计与应用",
             link: "/collection/junior/courses/embedded-systems",
           },
+          {
+            text: "计算机游戏程序设计",
+            link: "/collection/junior/courses/game-programming",
+          },
         ],
       },
       {

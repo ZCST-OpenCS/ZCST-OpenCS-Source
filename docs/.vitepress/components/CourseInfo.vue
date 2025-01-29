@@ -13,10 +13,16 @@
                 <span class="separator">|</span>
                 <span class="value">{{ hours }}</span>
             </div>
+                <!-- 授课教c -->
+                <div class="tag instructor" v-if="showInstructor">
+                    <span class="value">{{ instructor }}</span>
+                    <span class="separator">|</span>
+                    <span class="label">&nbsp;授课</span>
+                </div>
         </div>
 
         <!-- 成绩构成 -->
-        <div class="grade-breakdown">
+        <div class="grade-breakdown" v-if="showFinalGradeComponents">
             <span class="tag year">成绩构成 ({{ year }})</span>
             <div class="breakdown-items">
                 <div class="tag split-tag" v-for="(value, name) in breakdown" :key="name">
@@ -31,13 +37,17 @@
 
 <script setup>
 const props = defineProps({
+    instructor: {
+        type: String,
+        default: "张三 "
+    },
     credits: {
         type: Number,
         default: 2.5
     },
     hours: {
         type: Number,
-        default: 40
+        default: 48
     },
     year: {
         type: Number,
@@ -55,6 +65,14 @@ const props = defineProps({
     examType: {
         type: String,
         default: '考试类'
+    },
+    showInstructor: {
+    type: Boolean,
+    default: false
+    },
+    showFinalGradeComponents: {
+    type: Boolean,
+    default: true
     }
 })
 </script>
@@ -105,6 +123,22 @@ const props = defineProps({
 .exam-type {
     background-color: #ff6b6b;
     color: white;
+}
+
+.instructor {
+    background-color: #00000048;
+    /* color: white; */
+}
+.instructor .label {
+    font-weight: 350;
+    color: #ffffffd5;
+}
+.instructor .separator {
+    color: #9b9898c5;
+}
+.instructor .value {
+    font-weight: 1100;
+    color: #fdd210c5;
 }
 
 .year {

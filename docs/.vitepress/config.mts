@@ -27,7 +27,11 @@ export default defineConfig({
         text: "大二",
         link: "/collection/sophomore/",
         collapsed: false,
-        items: [],
+        items: [
+          { text: "大学物理实验B", link: "/collection/sophomore/courses/college-physics-lab-b.md" },
+          {text: "马克思主义基本原理", link: "/collection/sophomore/courses/marxism.md"}
+
+        ],
       },
       {
         text: "大三",

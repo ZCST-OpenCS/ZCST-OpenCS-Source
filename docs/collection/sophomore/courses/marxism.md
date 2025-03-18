@@ -22,10 +22,9 @@ import CourseInfo from '../../../.vitepress/components/CourseInfo.vue'
   :showInstructor="true"
 />
 
-
 ## 三件套
-组队制作PPT且演讲（算入平时分），读书报告，期末考试。
 
+组队制作PPT且演讲（算入平时分），读书报告，期末考试。
 
 ## 考试题型
 
@@ -36,7 +35,6 @@ import CourseInfo from '../../../.vitepress/components/CourseInfo.vue'
 三、材料分析题（本大题共 5 题）
 
 四、论述题（本大题共 1 题）
-
 
 <div :style="{ textAlign: 'right' }">
 Emotion 

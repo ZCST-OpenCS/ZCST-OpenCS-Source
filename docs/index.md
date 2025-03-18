@@ -3,15 +3,15 @@
 layout: home
 
 hero:
-  name: "ZCST-OpenCS"
-  text: "攀登计划"
+  name: 'ZCST-OpenCS'
+  text: '攀登计划'
   actions:
     - theme: brand
       text: 查看文档
       link: /catalog
   image:
     src: /home.png
-    alt: "ZCST-OpenCS Logo"
+    alt: 'ZCST-OpenCS Logo'
 features:
   - title: 一份全面的课程攻略
     details: 课程笔记分享、实践实验攻略、考试复习资料

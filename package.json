@@ -10,5 +10,10 @@
     "vercel-build": "vitepress build docs",
     "format": "prettier --write .",
     "lint:check": "prettier --check ."
+  },
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "esbuild"
+    ]
   }
 }

@@ -20,7 +20,3 @@ features:
   - title: 参与到我们
     details: 欢迎加入我们,一起完善这份攻略
 ---
-
-<div style="position: fixed; bottom: 0; left: 50%; transform: translateX(-50%); padding: 5px; font-size: 14px; text-align: center;">
-  <a href="https://vitepress.dev/zh/guide/getting-started" target="_blank">vitepress 开发参与指南</a>
-</div>
